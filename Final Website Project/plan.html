@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style_plan.css" rel="stylesheet" type="text/css"/>
+    <script src="plan.js" defer></script>
+  </head>
+  <body>
+
+    <div id="header">
+        <a href="./"><img src="WanderPlanLogo.JPG" alt="logo" id="logo"></a>
+    </div>
+
+    <div id="top-nav" style="display: block;">
+        <table>
+          <tr>
+            <td><a href="./">Home</a></td>
+            <td><a href="explore.html"</a>Explore</td>  
+            <td><a href="dropdown.php">Plan</a></td>
+            <td><a href="contactus.html">Contact</a></td>
+            <td><a href="faq.html">FAQ</a></td>
+          </tr>                
+        </table>
+    </div>
+
+
+    <form action="plan.php" method="post">
+    <div id="plan_form">
+      <label>Destination: </label><input type="text" class="trip_info" id="place" name="place" placeholder="Destination">
+      <!--<label>Start Date: </label><input type="text" class="trip_info" id="start_date" name="start_date" placeholder="Start Date mm/dd/yyyy">
+      <label>End Date: </label><input type="text" class="trip_info" id="end_date" name="end_date" placeholder="End Date mm/dd/yyyy"> -->
+    </div>
+    <div id="plan_buttons">
+      <input type='submit' id="submit-button input" value="Submit">
+      <input type='reset' id="clear" value="Clear">
+    </div>
+  </form>
+    
+  </body>
+</html>

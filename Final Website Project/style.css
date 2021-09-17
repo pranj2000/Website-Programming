@@ -1,0 +1,466 @@
+
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: auto;
+  padding-top: 15px;
+}
+
+#header{
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 100px;
+  padding-top: 5px;
+  border-bottom: solid 1px black;
+}
+
+#top-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+#top-nav table { 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top-nav td { 
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Tahoma, sans-serif;
+}
+
+
+a:link {
+  color: #15345f;
+  text-decoration: none;
+}
+
+#2vids{
+  background-color: #f7fafc;
+  padding-top: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+#container{
+  background-color: #f7fafc;
+  padding-top: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#top{
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+}
+#video_home_page {
+ display: block;
+  margin: 0 auto;
+}
+#top h1 {
+  color: #bc2109;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  font-weight: 75;
+  font-size: 75px;
+}
+
+#video1 {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+#audio {
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+#video2 {
+  padding-top: 10%;
+  margin-left: 10px;
+  margin-right: auto;
+  float: right;
+}
+
+#link {
+  	background: none;
+  	border: none;
+  	padding: 0;
+	font-size: 15px;
+  	color:#15345f;
+  	text-decoration: none;
+  	cursor: pointer;
+    font-family: Tahoma, sans-serif;
+}
+
+#blurb {
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: #bc2109;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  font-weight: 20;
+  font-size: 30px;
+}
+
+#dayheader {
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: #bc2109;
+  font-family: Tahoma, sans-serif;
+  font-weight: 15;
+  font-size: 20px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#tripheader {
+  padding-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: #bc2109;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  font-weight: 20;
+  font-size: 25px;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#button {
+  text-align: center;
+  padding-bottom: 75px;
+}
+
+button{
+  background-color: #bc2109;
+  border: none;
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+#dropdown-table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#dropdown-table th {
+  background-color: #bc2109;
+  color: white;
+}
+
+#dropdown-table th, tr, td {
+  padding: 10px 5px 10px 5px;
+}
+
+#dropdown-table tr, td {
+  font-size: 16px;
+}
+
+#places{
+  width:150px;
+  height:30px;
+  font-size: 18px;
+  
+}
+
+.overlay {
+  width: 20%;
+  min-width: 30%;
+  margin: 2% auto;
+  display: block;
+  padding: 2%;
+  height: 40vh;
+  border-radius: 10px;
+  background-color: #f0f5fc;
+  border: 5px, solid, black;
+  text-align: center;
+  font-family: Optima, sans-serif;
+  font-size: 20px;
+}
+
+.login_text {
+  font-size: 35px;
+  font-family: Optima, sans-serif;
+  font-weight: 10;
+  color: #15345f;
+}
+
+.login_page_buttons {
+background-color: #bc2109;
+  border: none;
+  color: white;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+#home_image{
+  margin: 0px;
+  height: 200%;
+  border-bottom: solid white .5px;
+}
+
+.sample_itens {
+  overflow: auto;
+  display: block;
+  background-color: white;
+  padding-top:20px; 
+  padding-left:20px; 
+  padding-right:20px; 
+  align-content: center;
+}
+
+#explore_img1 img{
+  width: 33%;
+  float: left;
+  height: 350px;
+  vertical-align: middle;
+}
+
+#explore_img2 img{
+  width: 33%;
+  height: 350px;
+  margin-left: 10px;
+  margin-right: auto;
+  float: left;
+  vertical-align: middle;
+}
+
+#explore_img2 audio{
+  position: relative;
+  top: -40px;
+  left: 10px;
+}
+
+#explore_img3 img{
+  width: 33%;
+  height: 350px;
+  float: right;
+  vertical-align: middle;
+}
+.pics_in_a_row {
+  display: flex;
+}
+
+#column_1 img{
+  width: 33%;
+  float: left;
+  height: auto;
+}
+
+#column_2 img{
+  /*CANT FIGURE OUT HOW TO CENTER THESE IMAGES
+  also figure out how to gray image when someone hovers over it
+  The images are a link. Also should display text that says
+  "View Maladives Itenerary" when someone hovers over it.*/
+  display: block;
+  width: 33%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: auto;
+  float: left;
+}
+
+#column_3 img{
+  display: block;
+  width: 33%;
+  height: auto;
+  float: right;
+}
+
+.text_items {
+  overflow: auto;
+  display: block;
+  padding-top:20px; 
+  padding-left:20px; 
+  padding-right:20px; 
+  padding-bottom: 50px;
+  align-content: center;
+  font-family: Tahoma, sans-serif;
+  font-size: 25px;
+  color: #bc2109;
+}
+
+#test1 {
+  text-align: center;
+}
+#test2 {
+  text-align: center;
+}
+#test3 {
+  text-align: center;
+}
+
+.sample_itens::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#separator{
+  /* just put this in here to separate things bc i was editing and getting confused lol
+  yall can take it out*/
+  height: 100px;
+  width: 100%
+}
+
+#footer{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin: auto;
+}
+
+#text-body{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #f0f5fc;
+  margin: auto;
+}
+h2 {
+  color: #d62a2a;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  font-weight: 85;
+}
+#itinerary-body{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f5fc;
+  margin: auto;
+}
+
+#login{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#login-button input{
+    padding: 10px;
+    display:block;
+    background-color:#bc2109;
+    color: white;
+    text-align:center;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+#sample_videos iframe{
+  margin: 0 50px 0 70px;
+}
+
+
+.explore-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left: 150px;
+}
+
+/* Create four equal columns that sits next to each other */
+.explore-column {
+  flex: 25%;
+  max-width: 22%;
+  padding: 0 4px;
+}
+
+.explore-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .explore-column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .explore-column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.img-container {
+  position: relative;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-container:hover .image {
+  opacity: 0.3;
+}
+
+.img-container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #65676b;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.text a {
+  color: white;
+}
+
+#explore-desc{
+  text-align: center;
+  color:#bc2109;
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;
+}
+
