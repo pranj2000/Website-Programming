@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>ENTER TITLE HERE</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ENTER DESCRIPTION HERE">
+    <meta name="author" content="ENTER NAME HERE">
+    <script src="calc.js" defer></script>
+    <link rel="stylesheet" href="calc.css">
+</head> 
+
+<body>
+
+    <h1>Mortgage Calculator</h1>
+
+<form id="calcForm">
+<table id="table1">
+
+    <tr>
+        <td class = "labels">Principal Amount</td>
+        <td class = "textbox"><input type = "text" id = "principal"></td>
+    </tr>
+    
+    <tr>
+        <td class = "labels">Yearly Interest Rate Percentage</td>
+        <td class = "textbox"><input type = "text" id = "interestRate"></td>
+    </tr>
+
+    <tr>
+        <td class = "labels">Loan Term In Months</td>
+        <td class = "textbox"><input type = "text" id = "loanTerm"></td>
+    </tr>
+
+    <tr>
+        <td class = "button"><button onclick = "calculatePayment()">Calculate</button></td>
+        <td class = "button"><input type = "reset" name = "Reset"></td>
+    </tr>
+
+    <tr>
+        <td class = "labels">Monthly Payments</td>
+        <td class = "textbox" id = "payment">To be Calculated</td>
+    </tr>
+
+    <tr>
+        <td class = "labels">Sum of all Payments</td>
+        <td class = "textbox" id = "sumPayments">To be Calculated</td>
+    </tr>
+
+    <tr>
+        <td class = "labels">Total Interest Paid</td>
+        <td class = "textbox" id = "interestPaid">To be Calculated</td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

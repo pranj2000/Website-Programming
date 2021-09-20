@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>CS 329E Quiz</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Self-grading quiz">
+	<meta name="author" content="Pranjal J">
+	<script src="quiz.js" defer></script>
+	<link rel="stylesheet" href="quiz.css">
+</head> 
+
+<body>
+
+<div id="quiz">
+	
+	<div id="tf">
+		<div class="question" id="question0">1. "URL" stands for "Universal Reference Link"</div>
+		<div class="answers" id="answers0"> 
+			<label>
+              <input type="radio" name="question0" value="true">
+              True
+            </label>
+            <label>
+              <input type="radio" name="question0" value="false">
+              False
+            </label>
+        </div>
+
+        <div class="question" id="question1">2. An Apple MacBook is an example of a Linux system</div>
+		<div class="answers" id="answers1"> 
+			<label>
+              <input type="radio" name="question1" value="true">
+              True
+            </label>
+            <label>
+              <input type="radio" name="question1" value="false">
+              False
+            </label>
+        </div>
+
+	</div>
+
+	<div id="mc">
+
+		<div class="question" id="question2">3. Which of these do NOT contribute to packet delay in a packet switching network?</div>
+		<div class="answers" id="answers2"> 
+			<label>
+              <input type="checkbox" name="question2" value="a">
+              Processing delay at a router
+            </label>
+            <label>
+              <input type="checkbox" name="question2" value="b">
+              CPU workload on a client
+            </label>
+            <label>
+            	<input type="checkbox" name="question2" value="c">
+            	Transmission delay along a communications link
+            </label>
+            <label>
+              <input type="checkbox" name="question2" value="d">
+              Propagation delay
+            </label>
+        </div>
+        <div class="question" id="question3">4. This Internet layer is responsible for creating the packets that move across the network.</div>
+		<div class="answers" id="answers3"> 
+			<label>
+              <input type="checkbox" name="question3" value="a">
+              Physical
+            </label>
+            <label>
+              <input type="checkbox" name="question3" value="b">
+              Data Link
+            </label>
+            <label>
+              <input type="checkbox" name="question3" value="c">
+              Network
+            </label>
+            <label>
+              <input type="checkbox" name="question3" value="d">
+              Transport
+            </label>
+        </div>
+	</div>
+
+	<div id="fill">
+		
+		<div class="question" id="question4">5. _______ is a networking protocol that runs over TCP/IP, and governs communication between web browsers and web servers.</div>
+			
+		<div class="answers" id="answers4"> 
+			<label>
+	            <input type="text" id="q4">
+	        </label>
+	    </div>
+
+	    <div class="question" id="question5">6. A small icon displayed in a browser tabl that identifies a website is called a ________.</div>
+			
+		<div class="answers" id="answers5"> 
+			<label>
+	            <input type="text" id="q5">
+	        </label>
+	    </div>
+
+	</div>
+
+</div>
+
+<button id="submit" onclick="grade()">Grade</button>
+<button id="clear" onclick="clean()">Clear</button>
+
+<div id="results"></div>
+
+</body>
+</html>

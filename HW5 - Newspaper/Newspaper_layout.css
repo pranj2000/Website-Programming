@@ -1,0 +1,183 @@
+body
+{
+	background-color: #090363;
+}
+
+#container
+{
+	width: 70%;
+	margin: 10px auto;
+	background-color: #fff;
+	color: #333;
+	border: 1px solid gray;
+	line-height: 130%;
+}
+
+#top
+{
+	padding: .5em;
+	background-color: #ddd;
+	border-bottom: 1px solid gray;
+	text-align: center;
+}
+
+#top h1
+{
+	font-size: 50px;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	margin: 0px;
+	color: #090363
+}
+
+#top p
+{
+	margin-top: 0;
+	padding: 0
+	margin: 0;
+}
+
+
+#leftnav
+{
+	float: left;
+	width: 160px;
+	margin: 0;
+	padding: 1em;
+}
+
+#leftnav h2
+{
+	text-align: left;
+	margin: 0 0 .5em 0; 
+
+}
+
+#leftnav ul
+{
+	list-style-type: none;
+	margin-left: 0;
+	padding: 0;
+}
+
+#rightnav
+{
+	float: right;
+	width: 160px;
+	margin: 0;
+	padding: 1em;
+	padding-right: 2em;
+}
+
+#rightnav h2
+{
+	text-align: left;
+	margin: 0.5em 0em .5em 0em; 
+}
+
+#rightnav img
+{
+	width:180px;
+	height: auto;
+}
+
+
+
+#content
+{
+	margin-left: 200px;
+	border-left: 1px solid gray;
+	margin-right: 200px;
+	border-right: 1px solid gray;
+	padding: 1em;
+}
+
+#content h2 
+{ 
+	margin: 0.5em; 
+	text-align: center;
+	font-size: 32px
+}
+
+#content h3
+{ 
+	margin: 1em 0 0 0;
+
+}
+
+#content p
+{ 
+	margin: 0; 
+	text-align: justify;
+}
+
+#floatright
+{
+	float:right;
+	padding: 0 0.5em 0.75em 1em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#floatleft
+{
+	float:left;
+	padding: 0 1em 0.2em 0.5em;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#floatleft img
+{
+	max-width: 300px;
+	max-height: auto;
+}
+
+#top_news
+{	
+	padding-bottom: 0.25em;
+	border-bottom: 1px solid gray;
+}
+
+
+#bot_news table
+{
+	border-spacing: 0;
+	padding: 0em;
+	margin: 1em;	
+}
+
+#bot_news th, td
+{
+	border-spacing: 0;
+	padding: 0 0.15em 0 0;
+	margin-right: 0.15em;
+	margin: 0;
+	border-right: 1px solid gray;
+}
+
+
+#bot_news li
+{
+	list-style-type: square;
+	margin: 0 0 0 -1em;
+	padding: 0 0 0 0em;
+	text-decoration: underline;
+}
+
+#footer
+{
+	clear: both;
+	margin: 0;
+	padding: .5em;
+	color: #333;
+	background-color: #ddd;
+	border-top: 1px solid gray;
+}
+
+
+#leftnav p, #rightnav p 
+{ 
+	margin: 0 0 1em 0; 
+}
+
